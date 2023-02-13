@@ -743,7 +743,7 @@ color: #f14d34;
 .block-tariffs {
     padding: 160px 0 90px;
     font-family: Montserrat;
-    background: url(../img/D-background.svg) no-repeat right top, rgba(255,255,255,0.77);
+    background: url(img/D-background.svg) no-repeat right top, rgba(255,255,255,0.77);
     background-blend-mode: color;
     /*background-size: 58%*/
 }
@@ -855,7 +855,7 @@ color: #f14d34;
     font-weight: 500
 }
 
-/*.tarrif-body-item:before,*/
+
 .tariff-body-item::before {
     content: "";
     display: inline-block;
@@ -864,7 +864,7 @@ color: #f14d34;
     left: 0;
     width: 13px;
     height: 10px;
-    background: url(../img/checkmark.svg) no-repeat center;
+    background: url(img/checkmark.svg) no-repeat center;
     background-size: contain
 }
 
