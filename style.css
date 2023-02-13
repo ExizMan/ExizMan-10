@@ -6,13 +6,13 @@ body {
 }
 
 
+
 @media (max-width: 500px) {
     .block-title {
         font-size: x-small;
     }
 }
 
-/*------------------navbar--------------------------*/
 
 #navbar .logo img {
     max-width: 50%;
@@ -24,6 +24,7 @@ body {
     padding-left: 15px;
     padding-right: 15px;
 }
+
 
 @media (max-width: 768px) {
     #navbar-menu {
@@ -1673,10 +1674,20 @@ color:#f14d34;
 }
 .containerS .faq-questions > li p.faq-answer, .container .faq-questions > li .faq-asnwer {
   font-size: 10pt;
+  font-family: 'Montserrat';
   line-height: 1.5;
   margin-top: 7px;
   display: none;
+  border: 1px solid red;
+  transition-duration: 500ms;
+  transition-timing-function:linear ;
+  
 }
 .containerS .faq-questions > li p.faq-answer:hover, .container .faq-questions > li .faq-asnwer:hover {
   color: #000;
+  border: 1px solid white;
+  transition-duration: 500ms;
+  transition-timing-function:linear ;
+  
+  
 }
